@@ -1,0 +1,29 @@
+.wrapper {
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+  background-color: #FF7F50;
+}
+
+.img {
+  width: 35rem;
+  height: 5.5rem;
+  background: no-repeat center;
+  background-size: contain;
+}
+
+.phone {
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.phoneText {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: white;
+  text-align: center;
+}
