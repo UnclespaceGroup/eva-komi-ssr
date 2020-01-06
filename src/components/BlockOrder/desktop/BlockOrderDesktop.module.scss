@@ -1,0 +1,54 @@
+.wrapper {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.container {
+  background: rgba(17, 17, 17, 0.9);
+  padding: 7rem 3rem;
+}
+.title {
+  font-size: 2.4rem;
+  line-height: 4.2rem;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+.phone {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 5rem;
+  color: white;
+  text-align: center;
+}
+.button {
+  display: block;
+  font-weight: bold;
+  font-size: 2.8rem;
+  line-height: 7.5rem;
+  color: white;
+  text-align: center;
+  background: #F2994A;
+  box-sizing: border-box;
+  box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+  position: center;
+  border-radius: 1rem;
+  margin: 4rem auto 1.6rem;
+  width: 42rem;
+
+  &:hover{
+    background-color: #d76c44;
+    cursor: pointer;
+    transition: background-color 100ms ease-in;
+  }
+}
+.text {
+margin-top: 1.6rem;
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  text-align: center;
+  color: white;
+
+}
