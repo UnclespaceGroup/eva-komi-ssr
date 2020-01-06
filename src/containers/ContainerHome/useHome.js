@@ -21,8 +21,28 @@ const useHome = () => {
     }
   ]
 
+  const achievementsList = [
+    {
+      value: '256',
+      title: 'Успешно выполненных заказов'
+    },
+    {
+      value: '256',
+      title: 'Успешно выполненных заказов'
+    },
+    {
+      value: '256',
+      title: 'Успешно выполненных заказов'
+    },
+    {
+      value: '256',
+      title: 'Успешно выполненных заказов'
+    }
+  ]
+
   return {
-    advantagesList
+    advantagesList,
+    achievementsList
   }
 }
 export default useHome

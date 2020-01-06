@@ -7,6 +7,7 @@ const Layout = ({ children, className }) => (
   <div className={cn(css.layout, className)}>{children}</div>
 )
 Layout.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
+  className: PropTypes.string
 }
 export default React.memo(Layout)

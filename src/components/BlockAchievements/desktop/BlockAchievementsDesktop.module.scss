@@ -1,0 +1,42 @@
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 14rem 0;
+}
+
+.item {
+  padding: 0 4rem;
+
+  &:not(:first-child) {
+    border-left: solid 1px white;
+  }
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.value {
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 4.2rem;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+
+}
