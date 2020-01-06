@@ -1,18 +1,12 @@
-// packages
 import React from 'react'
-// components
-import s from './pageHomeDesktop.module.scss'
-import Layout from 'components/Layout/Layout'
-import HeaderDesktop from 'components/Header/desktop/HeaderDesktop'
+import css from './pageHomeDesktop.module.scss'
 import ButtonPhoneDesktop from 'components/ButtonPhone/desktop/ButtonPhoneDesktop'
+import ContainerHomeDesktop from 'containers/ContainerHome/desktop/ContainerHomeDesktop'
 
 const PageHomeDesktop = () => (
-  <div className={s.container}>
-    <HeaderDesktop />
+  <div className={css.container}>
     <ButtonPhoneDesktop />
-    <Layout >
-      dsmlmlkdc
-    </Layout>
+    <ContainerHomeDesktop />
   </div>
 )
 
