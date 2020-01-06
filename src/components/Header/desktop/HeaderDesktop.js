@@ -1,12 +1,13 @@
 import React from 'react'
 import css from './HeaderDesktop.module.scss'
 import logo from 'static/eva-komi-logo.svg'
+import { MAIN_PHONE } from 'constants/contacts'
 
 const HeaderDesktop = () => {
   return (
     <div className={css.wrapper}>
       <div>
-        <div className={css.phone}>+7(904) 237-02-67</div>
+        <div className={css.phone}>{MAIN_PHONE}</div>
         <div className={css.phoneText}>круглосуточно, без выходных</div>
       </div>
       <div>

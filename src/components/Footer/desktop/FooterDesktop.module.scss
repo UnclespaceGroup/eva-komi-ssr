@@ -1,0 +1,35 @@
+.img {
+  height: 6rem;
+  background: no-repeat center;
+  background-size: contain;
+  margin-bottom: 12rem;
+}
+.container {
+  padding: 8rem 0 6.4rem;
+  background-color: #3F3F3F;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px dimgray;
+  padding-top: 4.8rem;
+}
+.phone {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: white;
+}
+.address {
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+}
+
+.unclespace {
+  color: white;
+  font-size: 1.8rem;
+  padding: 4rem 0;
+  background-color: #2C2C2C;
+}
