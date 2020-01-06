@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.img {
+  width: 50%;
+  height: 45rem;
+  background: no-repeat center;
+  background-size: cover;
+}
+.block {
+  width: 50%;
+  padding-right: 8rem;
+}
+.title {
+  font-size: 36px;
+  line-height: 35px;
+}
+.text {
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.separator {
+  margin: 2rem 0 3rem;
+  border-color: #ff723d;
+  display: block;
+  width: 30rem;
+}

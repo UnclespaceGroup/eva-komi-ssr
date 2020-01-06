@@ -1,6 +1,7 @@
 import photoTime from 'static/kruglosutochno 1.svg'
 import photoOpyt from 'static/opyt 1.svg'
 import photoTea from 'static/tea.svg'
+import photoProblem from 'static/car-problem.jpg'
 
 const useHome = () => {
   const advantagesList = [
@@ -40,9 +41,28 @@ const useHome = () => {
     }
   ]
 
+  const cardsList = [
+    {
+      img: photoProblem,
+      title: 'Не будет дорого',
+      text: 'Мы всегда поддерживаем самый низкий ценник, по сравнению с конкурентами'
+    },
+    {
+      img: photoProblem,
+      title: 'Не будет дорого',
+      text: 'Мы всегда поддерживаем самый низкий ценник, по сравнению с конкурентами'
+    },
+    {
+      img: photoProblem,
+      title: 'Не будет дорого',
+      text: 'Мы всегда поддерживаем самый низкий ценник, по сравнению с конкурентами'
+    }
+  ]
+
   return {
     advantagesList,
-    achievementsList
+    achievementsList,
+    cardsList
   }
 }
 export default useHome

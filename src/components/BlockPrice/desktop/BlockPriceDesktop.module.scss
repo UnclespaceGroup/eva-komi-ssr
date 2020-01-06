@@ -1,0 +1,48 @@
+.container {
+  background-color: rgba(0,0,0,0.5);
+  font-size: 9.6rem;
+  line-height: 11.2rem;
+  display: flex;
+}
+
+.img {
+  background: no-repeat center;
+  background-size: cover;
+}
+
+.left {
+  width: 50%;
+  height: 58rem;
+  padding: 0 4rem;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.right {
+  width: 50%;
+  height: 58rem;
+  padding: 0 4rem;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}
+
+.leftText {
+  width: 100%;
+  text-align: right;
+}
+
+.rightText {
+  position: relative;
+}
+
+.oldPrice {
+  position: absolute;
+  font-size: 4.8rem;
+  top: -8rem;
+  left: 18rem;
+  color: #3F3F3F;
+  text-decoration: line-through;
+}

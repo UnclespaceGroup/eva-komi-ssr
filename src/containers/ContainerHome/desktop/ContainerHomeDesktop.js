@@ -5,9 +5,11 @@ import BlockAdvantagesDesktop from 'components/BlockAdvantages/desktop/BlockAdva
 import BlockAchievementsDesktop from 'components/BlockAchievements/desktop/BlockAchievementsDesktop'
 import BlockInternationalShippingDesktop
   from 'components/BlockInternatioalShipping/desktop/BlockInternationalShippingDesktop'
+import BlockPriceDesktop from 'components/BlockPrice/desktop/BlockPriceDesktop'
+import BlockCardsDesktop from 'components/BlockCards/desktop/BlockCardsDesktop'
 
 const ContainerHomeDesktop = () => {
-  const { advantagesList, achievementsList } = useHome()
+  const { advantagesList, achievementsList, cardsList } = useHome()
   return (
     <>
       <Margin value={100} />
@@ -16,6 +18,11 @@ const ContainerHomeDesktop = () => {
       <BlockAchievementsDesktop list={achievementsList} />
       <Margin value={100} />
       <BlockInternationalShippingDesktop />
+      <Margin value={100} />
+      <BlockPriceDesktop />
+      <Margin value={100} />
+      <BlockCardsDesktop list={cardsList} />
+      <Margin value={100} />
     </>
   )
 }
