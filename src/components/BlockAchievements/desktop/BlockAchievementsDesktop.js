@@ -3,10 +3,11 @@ import _ from 'lodash'
 import css from './BlockAchievementsDesktop.module.scss'
 import Layout from 'components/Layout/Layout'
 import backImg from 'static/doroga_razmetka_most_123398_1920x1080.jpg'
+import BgImage from 'components/BgImage/BgImage'
 
 const BlockAchievementsDesktop = ({ list }) => {
   return (
-    <div style={{ backgroundImage: `url(${backImg})` }} className={css.back}>
+    <BgImage url={backImg} className={css.back}>
       <div className={css.container}>
         <Layout className={css.row} >
           {
@@ -19,7 +20,7 @@ const BlockAchievementsDesktop = ({ list }) => {
           }
         </Layout>
       </div>
-    </div>
+    </BgImage>
   )
 }
 export default BlockAchievementsDesktop

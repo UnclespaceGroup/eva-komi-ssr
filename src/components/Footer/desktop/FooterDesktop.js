@@ -2,7 +2,9 @@ import React from 'react'
 import css from './FooterDesktop.module.scss'
 import logo from 'static/eva-komi-logo-white.svg'
 import Layout from 'components/Layout/Layout'
-import { MAIN_PHONE } from 'constants/contacts'
+import { MAIN_PHONE, SECOND_PHONE } from 'constants/contacts'
+import Margin from 'components/Margin/Margin'
+import { MdPhone, MdPlace } from 'react-icons/md'
 
 const FooterDesktop = () => {
   return (
@@ -12,10 +14,12 @@ const FooterDesktop = () => {
         <div className={css.img} style={{ backgroundImage: `url(${logo})` }} />
         <div className={css.contacts}>
           <div className={css.phone}>
-            {MAIN_PHONE}
+            <div><MdPhone /> {MAIN_PHONE}</div>
+            <Margin value={24} />
+            <div><MdPhone /> {SECOND_PHONE}</div>
           </div>
           <div className={css.address} >
-          г. Сыктывкар, Республика Коми
+            <MdPlace /> г. Сыктывкар, Республика Коми
           </div>
         </div>
       </Layout>
