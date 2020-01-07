@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  padding-top: 15rem;
+  min-height: 100vh;
+}
+
+.triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40vw;
+  height: 40vw;
+  background: no-repeat left top;
+  background-size: cover;
+}
+
+.gazel {
+  z-index: 100;
+  width: 100%;
+  height: 15rem;
+  background: no-repeat center;
+  background-size: contain;
+}
+
+.wrapper {
+
+  h1 {
+    font-size: 4.7rem;
+    font-weight: bold;
+  }
+}
+
+.text {
+  margin-top: 1.6rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  bottom: 2.4rem;
+  left: calc(50vw - 2.1rem);
+
+  svg {
+    width: 4.2rem;
+    height: 4.2rem;
+    color: #767676;
+  }
+}

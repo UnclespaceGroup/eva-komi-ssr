@@ -20,7 +20,7 @@ const ContainerHomeDesktop = () => {
       <BlockAdvantagesDesktop list={advantagesList} />
       <Margin value={0} />
       <BlockCardsDesktop list={cardsList} />
-      <Margin value={100} />
+      <Margin value={200} />
       <BlockAchievementsDesktop list={achievementsList} />
       <Margin value={100} />
       <BlockInternationalShippingDesktop />
