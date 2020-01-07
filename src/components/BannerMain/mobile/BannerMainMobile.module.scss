@@ -1,7 +1,9 @@
 .container {
   position: relative;
-  padding-top: 15rem;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .triangle {
@@ -23,6 +25,7 @@
 }
 
 .wrapper {
+  margin-bottom: 8rem;
 
   h1 {
     font-size: 4.7rem;
