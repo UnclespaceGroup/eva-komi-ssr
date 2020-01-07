@@ -1,14 +1,14 @@
 import React from 'react'
-import css from './desktop/BlockOrderDesktop.module.scss'
-import Layout from 'components/Layout/Layout'
+import css from './BlockOrderMobile.module.scss'
 import BgImage from 'components/BgImage/BgImage'
 import imgOrder from 'static/imgOrder.jpg'
 import { MAIN_PHONE, MAIN_PHONE_NUMBER } from 'constants/contacts'
+import LayoutMobile from 'components/Layout/LayoutMobile'
 
-const BlockOrderDesktop = () => {
+const BlockOrderMobile = () => {
   return (
-    <Layout className={css.wrapper}>
-      <BgImage url={imgOrder}>
+    <LayoutMobile>
+      <BgImage url={imgOrder} className={css.wrapper} >
         <div className={css.container}>
           <div className={css.title}>Для заказа просто позвоните</div>
           <div className={css.phone}>{MAIN_PHONE}</div>
@@ -16,7 +16,7 @@ const BlockOrderDesktop = () => {
           <div className={css.text}>Машина приедет в течении 20 минут</div>
         </div>
       </BgImage>
-    </Layout>
+    </LayoutMobile>
   )
 }
-export default BlockOrderDesktop
+export default BlockOrderMobile

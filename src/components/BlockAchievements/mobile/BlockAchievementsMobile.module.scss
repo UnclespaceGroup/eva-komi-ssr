@@ -1,0 +1,41 @@
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem 0;
+}
+
+.back {
+  background: no-repeat center;
+  background-size: cover;
+}
+
+.item {
+  padding: 0 4rem 2rem;
+
+  &:not(:last-child):after {
+    content: '';
+    display: block;
+    width: 10rem;
+    background-color: #a0a0a0;
+    height: 1px;
+    margin: 2rem auto 0;
+  }
+}
+
+.value {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+.row {
+  display: block;
+}

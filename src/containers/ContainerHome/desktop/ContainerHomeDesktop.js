@@ -7,7 +7,7 @@ import BlockInternationalShippingDesktop
   from 'components/BlockInternatioalShipping/desktop/BlockInternationalShippingDesktop'
 import BlockPriceDesktop from 'components/BlockPrice/desktop/BlockPriceDesktop'
 import BlockCardsDesktop from 'components/BlockCards/desktop/BlockCardsDesktop'
-import BlockOrderDesktop from 'components/BlockOrder/BlockOrederDesktop'
+import BlockOrderDesktop from 'components/BlockOrder/desktop/BlockOrederDesktop'
 import BannerMainDesktop from 'components/BannerMain/desktop/BannerMainDesktop'
 
 const ContainerHomeDesktop = () => {

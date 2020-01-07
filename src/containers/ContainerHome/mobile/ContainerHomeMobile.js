@@ -1,35 +1,34 @@
 import React from 'react'
-// import Margin from 'components/Margin/Margin'
-// import useHome from 'containers/ContainerHome/useHome'
-// import BlockAdvantagesDesktop from 'components/BlockAdvantages/desktop/BlockAdvantagesDesktop'
-// import BlockAchievementsDesktop from 'components/BlockAchievements/desktop/BlockAchievementsDesktop'
-// import BlockInternationalShippingDesktop
-//   from 'components/BlockInternatioalShipping/desktop/BlockInternationalShippingDesktop'
-// import BlockPriceDesktop from 'components/BlockPrice/desktop/BlockPriceDesktop'
-// import BlockCardsDesktop from 'components/BlockCards/desktop/BlockCardsDesktop'
-// import BlockOrderDesktop from 'components/BlockOrder/BlockOrederDesktop'
-// import BannerMainDesktop from 'components/BannerMain/desktop/BannerMainDesktop'
+import Margin from 'components/Margin/Margin'
+import useHome from 'containers/ContainerHome/useHome'
 import BannerMainMobile from 'components/BannerMain/mobile/BannerMainMobile'
+import BlockAdvantagesMobile from 'components/BlockAdvantages/mobile/BlockAdvantagesMobile'
+import BlockCardsMobile from 'components/BlockCards/mobile/BlockCardsMobile'
+import BlockAchievementsMobile from 'components/BlockAchievements/mobile/BlockAchievementsMobile'
+import BlockInternationalShippingMobile
+  from 'components/BlockInternatioalShipping/mobile/BlockInternationalShippingMobile'
+import BlockPriceMobile from 'components/BlockPrice/mobile/BlockPriceMobile'
+import BlockOrderMobile from 'components/BlockOrder/mobile/BlockOrderMobile'
 
 const ContainerHomeMobile = () => {
-  // const { advantagesList, achievementsList, cardsList } = useHome()
+  const { advantagesList, achievementsList, cardsList } = useHome()
   return (
     <>
       <BannerMainMobile />
       <div id={'it'} />
       {/* <Margin value={0} /> */}
-      {/* <BlockAdvantagesDesktop list={advantagesList} /> */}
+      <BlockAdvantagesMobile list={advantagesList} />
       {/* <Margin value={0} /> */}
-      {/* <BlockCardsDesktop list={cardsList} /> */}
-      {/* <Margin value={200} /> */}
-      {/* <BlockAchievementsDesktop list={achievementsList} /> */}
-      {/* <Margin value={100} /> */}
-      {/* <BlockInternationalShippingDesktop /> */}
-      {/* <Margin value={100} /> */}
-      {/* <BlockPriceDesktop /> */}
-      {/* <Margin value={100} /> */}
-      {/* <BlockOrderDesktop /> */}
-      {/* <Margin value={100} /> */}
+      <BlockCardsMobile list={cardsList} />
+      <Margin value={50} />
+      <BlockAchievementsMobile list={achievementsList} />
+      <Margin value={100} />
+      <BlockInternationalShippingMobile />
+      <Margin value={100} />
+      <BlockPriceMobile />
+       <Margin value={100} />
+       <BlockOrderMobile />
+       <Margin value={100} />
     </>
   )
 }
