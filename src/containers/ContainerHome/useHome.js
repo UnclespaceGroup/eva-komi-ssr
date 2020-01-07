@@ -2,13 +2,14 @@ import photoTime from 'static/kruglosutochno 1.svg'
 import photoOpyt from 'static/opyt 1.svg'
 import photoTea from 'static/tea.svg'
 import photoProblem from 'static/car-problem.jpg'
+import photoDefect from 'static/image-car-defect.jpeg'
 
 const useHome = () => {
   const advantagesList = [
     {
       icon: photoTime,
       title: 'Работаем 24/7',
-      text: 'Круглосуточно, без выходных\n'
+      text: 'Круглосуточно, без выходных'
     },
     {
       icon: photoOpyt,
@@ -48,9 +49,9 @@ const useHome = () => {
       text: 'Мы всегда поддерживаем самый низкий ценник, по сравнению с конкурентами'
     },
     {
-      img: photoProblem,
-      title: 'Не будет дорого',
-      text: 'Мы всегда поддерживаем самый низкий ценник, по сравнению с конкурентами'
+      img: photoDefect,
+      title: 'Вам не придётся долго ждать',
+      text: 'Среднее время прибытия эвакуатора по Сыктывкару - 20 минут'
     }
   ]
 
