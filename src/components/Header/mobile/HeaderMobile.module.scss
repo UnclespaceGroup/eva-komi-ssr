@@ -1,0 +1,36 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  color: white;
+  transition: all 200ms ease-in;
+}
+
+.black {
+  background-color: white;
+  color: black;
+}
+
+.img {
+  width: 8rem;
+  height: 4rem;
+  background: no-repeat center;
+  background-size: contain;
+}
+
+.phone {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.phoneText {
+  font-size: 1rem;
+  line-height: 2.1rem;
+  text-align: center;
+}
