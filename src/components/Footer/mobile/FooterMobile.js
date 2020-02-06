@@ -21,7 +21,7 @@ const FooterMobile = () => {
       </LayoutMobile>
     </div>
       <div className={css.unclespace}>
-        <LayoutMobile>Разработано Unclespace group</LayoutMobile>
+        <LayoutMobile>Разработано <a target={'_blank'} href={'https://vk.com/unclespace'}>Unclespace group</a></LayoutMobile>
       </div>
       </>
   )

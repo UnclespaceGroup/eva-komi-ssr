@@ -9,7 +9,9 @@ const BlockInternationalShippingDesktop = () => {
       <div className={css.img} style={{ backgroundImage: `url(${logoRussia})` }} />
       <div className={css.block}>
         <div className={css.title}>Перевозки за городом и по России</div>
-        <div className={css.text}>Междугородние перевозки, по России и республике Коми, а также в страны СНГ</div>
+        <div className={css.text}>
+          <p>Междугородние перевозки, по России и республике Коми, а также в страны СНГ</p>
+        </div>
       </div>
     </Layout>
   )

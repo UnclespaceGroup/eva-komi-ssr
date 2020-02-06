@@ -11,7 +11,7 @@ import BlockPriceMobile from 'components/BlockPrice/mobile/BlockPriceMobile'
 import BlockOrderMobile from 'components/BlockOrder/mobile/BlockOrderMobile'
 
 const ContainerHomeMobile = () => {
-  const { advantagesList, achievementsList, cardsList } = useHome()
+  const { advantagesList, achievementsList, cardsList, bottom } = useHome()
   return (
     <>
       <BannerMainMobile />
@@ -29,6 +29,8 @@ const ContainerHomeMobile = () => {
        <Margin value={100} />
        <BlockOrderMobile />
        <Margin value={100} />
+      {bottom}
+      <Margin value={100} />
     </>
   )
 }

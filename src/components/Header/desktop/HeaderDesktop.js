@@ -17,7 +17,7 @@ const HeaderDesktop = () => {
   }, [])
 
   const handleScroll = () => {
-    const OFFSET = 300
+    const OFFSET = 150
     if (!window) return
     if (window.pageYOffset > OFFSET) {
       // Сделать черным

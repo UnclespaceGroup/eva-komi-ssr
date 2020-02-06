@@ -25,7 +25,7 @@ const FooterDesktop = () => {
       </Layout>
     </div>
       <div className={css.unclespace}>
-        <Layout>Разработано Unclespace group</Layout>
+        <Layout>Разработано <a target={'_blank'} href={'https://vk.com/unclespace'}>Unclespace group</a></Layout>
       </div>
       </>
   )
