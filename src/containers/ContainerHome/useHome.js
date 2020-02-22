@@ -3,6 +3,7 @@ import photoOpyt from 'static/opyt 1.svg'
 import photoTea from 'static/tea.svg'
 import photoProblem from 'static/car-problem.jpg'
 import photoDefect from 'static/image-car-defect.jpeg'
+import photoEva from 'static/Evakuator-Dzerzhinsk-66-511-66.jpg'
 import React from 'react'
 import { MdPhone } from 'react-icons/md'
 
@@ -48,21 +49,30 @@ const useHome = () => {
     }
   ]
 
+  const topCardsList = [
+    {
+      img: photoEva,
+      title: <h2>Самая дешёвая и надёжная служба в Сыктывкаре</h2>,
+      text: <div>
+        <p>Если сломались в дороге, просто позвоните нам. Доставим Ваш автомобиль в целости и сохранности, в любое место России.</p>
+      </div>
+    }
+  ]
+
   const cardsList = [
     {
       img: photoProblem,
-      title: 'Не будет дорого',
+      title: <h2>Не будет дорого</h2>,
       text: <div>
-        <p>У нас всегда низкая цена. Мы следим за конкурентами, и всегда стараемся предоставить услуги дешевле, чем они.</p>
-        <p>Найдете дешевле, сделаем скидку!</p>
+        <p>Цена наших услуг всегда ниже, чем у конкурентов. Найдете дешевле, сделаем скидку!</p>
       </div>
     },
     {
       img: photoDefect,
-      title: 'Вам не придётся долго ждать',
+      title: <h2>Вам не придётся долго ждать</h2>,
       text: <div>
         <p>Среднее время прибытия эвакуатора по Сыктывкару - 20 минут.</p>
-        <p>Если вы находитесь не в пределах города, мы найдем машину поближе.</p>
+        <p>Для клиентов за пределами города найдем машину поближе.</p>
       </div>
     }
   ]
@@ -77,7 +87,8 @@ const useHome = () => {
     advantagesList,
     achievementsList,
     cardsList,
-    bottom
+    bottom,
+    topCardsList
   }
 }
 export default useHome

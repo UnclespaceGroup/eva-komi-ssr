@@ -11,14 +11,16 @@ import BlockOrderDesktop from 'components/BlockOrder/desktop/BlockOrederDesktop'
 import BannerMainDesktop from 'components/BannerMain/desktop/BannerMainDesktop'
 
 const ContainerHomeDesktop = () => {
-  const { advantagesList, achievementsList, cardsList, bottom } = useHome()
+  const { advantagesList, achievementsList, cardsList, topCardsList, bottom } = useHome()
   return (
     <>
       <BannerMainDesktop />
       <div id={'it'} />
-      <Margin value={0} />
+      <Margin value={120} />
+      <BlockCardsDesktop list={topCardsList} />
+      <Margin value={60} />
       <BlockAdvantagesDesktop list={advantagesList} />
-      <Margin value={0} />
+      <Margin value={60} />
       <BlockCardsDesktop list={cardsList} />
       <Margin value={200} />
       <BlockAchievementsDesktop list={achievementsList} />

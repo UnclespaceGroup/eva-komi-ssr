@@ -2,7 +2,7 @@ import React from 'react'
 
 const useBannerMain = () => {
   const text = <div>
-    <h2>Самый быстрый и надёжный в Сыктывкаре и Республике Коми</h2>
+    <h2>Срочная эвакуация автомобилей в Сыктывкаре и Республике коми</h2>
   </div>
 
   return {

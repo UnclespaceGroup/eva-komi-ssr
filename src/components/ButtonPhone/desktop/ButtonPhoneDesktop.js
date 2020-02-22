@@ -5,9 +5,11 @@ import { MAIN_PHONE_NUMBER } from 'constants/contacts'
 
 const ButtonPhoneDesktop = () => {
   return (
-    <a href={`tel:${MAIN_PHONE_NUMBER}`} className={css.buttonPhoneDesktop}>
-      <MdPhone />
-    </a>
+    <div className={css.buttonPhoneDesktop}>
+      <a href={`tel:${MAIN_PHONE_NUMBER}`} >
+        <MdPhone />
+      </a>
+    </div>
   )
 }
 export default ButtonPhoneDesktop
